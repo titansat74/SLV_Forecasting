@@ -10,9 +10,10 @@
 **Silver price data spanning from 2017 to the end of 2021 were taken from the [Yahoo! Finance](https://finance.yahoo.com) tabulation of the exchange-traded fund [SLV](https://finance.yahoo.com/quote/SLV/history?period1=1483228800&period2=1640995200&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true). The daily closing prices were used as the study dataset.**
 
 ## 2. Exploratory Data Analysis ##
-**In comparing the Total Score with the O/U values posted by the sportsbooks, both are found to exhibit a normal distribution but with Total Score revealing a much larger range. Large errors between Total Score and O/U reside mainly to the upside. One of the main findings of this analysis is that the Over has a significantly higher winning percentage in the first ten weeks of the season than in the last seven weeks.**
+**To facilitate the examination of the SLV time series data, the data must be stationarized. This is accomplished by differencing the dataset with the lag-1 values, which yields a p-value for the Augmented Dickey-Fuller test of 3.5x10<sup>-13</sup>, indicating strong stationarity.**
+**Autocorrelation
 
-![](https://github.com/titansat74/NFL_Over_Under/blob/main/README_files/fig7.png)
+![](https://github.com/titansat74/SLV_Forecasting/blob/main/figs/fig4.png)
 
 **The decline in Total Points later in the season, which corresponds to a reduction in Over winning percentage, seems to be directly related to the decline in passing yardage, which accompanies a decrease in temperature as the season progresses.**
 
