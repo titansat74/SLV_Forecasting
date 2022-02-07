@@ -10,7 +10,7 @@
 **Silver price data spanning from 2017 to the end of 2021 were taken from the [Yahoo! Finance](https://finance.yahoo.com) tabulation of the exchange-traded fund [SLV](https://finance.yahoo.com/quote/SLV/history?period1=1483228800&period2=1640995200&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true). The daily closing prices were used as the study dataset.**
 
 ## 2. Exploratory Data Analysis ##
-**To facilitate the examination of the SLV time series data, the data must be stationarized. This is accomplished by differencing the dataset with the lag-1 values, which yields a p-value for the Augmented Dickey-Fuller test of 3.5x10<sup>-13</sup>, indicating strong stationarity.**
+**To facilitate the examination of the SLV time series data, the data must be stationarized. This is accomplished by differencing the dataset with the lag-1 values, which yields a p-value for the Augmented Dickey-Fuller test of 3.5</times>10<sup>-13</sup>, indicating strong stationarity.**
 **Autocorrelation
 
 ![](https://github.com/titansat74/SLV_Forecasting/blob/main/figs/fig4.png)
