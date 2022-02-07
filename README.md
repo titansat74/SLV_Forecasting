@@ -11,7 +11,7 @@
 
 ## 2. Exploratory Data Analysis ##
 **To facilitate the examination of the SLV time series data, the data must be stationarized. This is accomplished by differencing the dataset with the lag-1 values, which yields a p-value for the Augmented Dickey-Fuller test of 3.5$\times$10<sup>-13</sup>, indicating strong stationarity.**
-**Autocorrelation
+**Autocorrelation &theta**
 
 ![](https://github.com/titansat74/SLV_Forecasting/blob/main/figs/fig4.png)
 
