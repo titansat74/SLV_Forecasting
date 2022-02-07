@@ -21,7 +21,7 @@
 > * [EDA Notebook](https://github.com/titansat74/SLV_Forecasting/blob/main/notebooks/SLV_Time_Series_EDA.ipynb)
 
 ## 3. Modeling & Forecast ##
-**The data were split into a training set (80%) and a test set (20%), comprising data from 2017-2020 and data from 2021, respectively. These data were fitted to Autoregressive Moving Average (ARIMA) and Seasonal ARIMA (SARIMA) models, using a grid search of AR and MA model orders. The results demonstrate that the SARIMA(0,1,0)(2,0,2)3 model provided the best fit to the evaluation dataset (test set). A description of the metrics used in the analysis can be found [here](https://github.com/titansat74/NFL_Over_Under/blob/main/docs/NFL_Over_Under%20Metrics.pdf).**
+**The data were split into a training set (80%) and a test set (20%), comprising data from 2017-2020 and data from 2021, respectively. These data were fitted to Autoregressive Moving Average (ARIMA) and Seasonal ARIMA (SARIMA) models, using a grid search of AR and MA model orders. The results demonstrate that the SARIMA(0,1,0)(2,0,2)3 model provided the best fit to the evaluation dataset (test set). A description of the metrics used in the analysis can be found [here](https://github.com/titansat74/SLV_Forecasting/blob/main/docs/Silver%20Forecasting%20Metrics.pdf).**
 **The coefficients for the model are presented below.**
 ![](https://github.com/titansat74/SLV_Forecasting/blob/main/figs/Table8.png)
 
