@@ -36,11 +36,6 @@
 
 ## 4. Summary ##
 **The major finding of this study are as follows:**
-> * **SLV shows significant autocorrelation at lags 4, 9, 15.*
+> * **SLV shows significant autocorrelation at lags 4, 9, 15.**
 > * **SLV is best modeled by a Seasonal ARIMA model of period 3 - SARIMA(0,1,0)(2,0,2)3.**
 > * **Best model forecasts an SLV appreciation of 6.0% for the year 2022.**
-## 5. Future Work ##
-**This study can be improved in the future with the following considerations:**
-> * **More recent data are available for implementation into the model**
-> * **Evolution of features over time can be considered in a time series treatment of the problem**
-> * **Varying the bet size in threshold tuning can provide further model optimization**
