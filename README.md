@@ -25,7 +25,7 @@
 **The coefficients for the model are presented below.**
 ![](https://github.com/titansat74/SLV_Forecasting/blob/main/figs/Table8.png)
 
-**Compared against the Baseline model, which assumes the next day's price is equal to today's price, only the Base SARIMA model outperforms with respect to the test set. A t-test reveals that this outperformance is not significant, yielding a p-value of 0.57 for the hypothesis that the SARIMA residuals are smaller than those of the Baseline**
+**Compared against the Baseline model, which assumes the next day's price is equal to today's price, only the Base SARIMA model outperforms with respect to the test set. A t-test reveals that this outperformance is not significant, yielding a p-value of 0.57 for the hypothesis that the SARIMA residuals are smaller than those of the Baseline.**
 ![](https://github.com/titansat74/SLV_Forecasting/blob/main/figs/Table9.png)
 
 **Using the SARIMA model, a forecast of 6.0% appreciation for 2022 is obtained.**
