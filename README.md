@@ -21,7 +21,7 @@
 > * [EDA Notebook](https://github.com/titansat74/SLV_Forecasting/blob/main/notebooks/SLV_Time_Series_EDA.ipynb)
 
 ## 3. Modeling & Forecast ##
-**The data were split into a training set (80%) and a test set (20%), comprising data from 2017-2020 and data from 2021, respectively. These data were fitted to Autoregressive Moving Average (ARIMA) and Seasonal ARIMA (SARIMA) models, using a grid search of AR and MA model orders. The results demonstrate that the SARIMA(0,1,0)(2,0,2)3 model provided the best fit to the evaluation dataset (test set). The metrics used in the analysis are presented [here](https://github.com/titansat74/SLV_Forecasting/blob/main/docs/Silver%20Forecasting%20Metrics.pdf).**
+**The data were split into a training set (80%) and a test set (20%), comprising data from 2017-2020 and data from 2021, respectively. These data were fitted to Autoregressive Moving Average (ARIMA) and Seasonal ARIMA (SARIMA) models, using a grid search of AR and MA model orders. The results demonstrate that the SARIMA(0,1,0)(2,0,2)[3] model provided the best fit to the evaluation dataset (test set). The metrics used in the analysis are presented [here](https://github.com/titansat74/SLV_Forecasting/blob/main/docs/Silver%20Forecasting%20Metrics.pdf).**
 **The coefficients for the model are presented below.**
 ![](https://github.com/titansat74/SLV_Forecasting/blob/main/figs/Table8.png)
 
@@ -37,6 +37,6 @@
 ## 4. Summary ##
 **The major finding of this study are as follows:**
 > * **SLV shows significant autocorrelation at lags 4, 9, 15.**
-> * **SLV is best modeled by a Seasonal ARIMA model of period 3 - SARIMA(0,1,0)(2,0,2)3.**
+> * **SLV is best modeled by a Seasonal ARIMA model of period 3 - SARIMA(0,1,0)(2,0,2)[3].**
 > * **The SARIMA model is not significantly different from the simplified Baseline model.**
 > * **Best model forecasts an SLV appreciation of 6.0% for the year 2022.**
